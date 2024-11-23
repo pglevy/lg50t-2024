@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.data.metadata.lang | default: 'en' }}" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+<html lang="{{ site.data.metadata.lang | default: 'en' }}">
 
 <head>
   <meta charset="utf-8">
@@ -9,13 +9,29 @@
 
   <link rel="icon" href="favicon.ico" sizes="any">
 
-  <link rel="stylesheet" href="assets/css/primer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body class="{% if page.body-style %}{{ page.body-style }}{% else %}p-3{% endif %}">
-  <main class="{% if page.main-style %}{{ page.main-style }}{% else %}container-md markdown-body{% endif %}">
-    {{ content }}
+<body>
+  <main class="container">
+    <section>
+      <hgroup>
+        <h1>{{ site.data.metadata.title }}</h1>
+        <p>Physical, digital, and mental baggage we’ve let go of in 2024</p>
+      </hgroup>
+      <h3>Progress: {{ site.data.things | size }} of 50</h3>
+      <progress value="{{ site.data.things | size }}" max="50"></progress>
+    </section>
+    <section class="container" style="max-width: 700px;">
+      {% for item in site.data.things %}
+      <article>
+        {% if item.image %}<img alt="" src="{{ site.baseurl }}/assets/img/{{ item.image }}" style="width:100%;">{% endif %}
+        <h2>{{ item.name }}</h2>
+        <p>{{ item.description }}</p>
+      </article>
+      {% endfor %}
+    </section> 
   </main>
   <script src="assets/js/main.js"></script>
 </body>
