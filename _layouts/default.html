@@ -24,7 +24,7 @@
       <h3>Progress: {{ site.data.things | size }} of 50</h3>
       <progress value="{{ site.data.things | size }}" max="50"></progress>
     </section>
-    <section class="container" style="max-width: 700px;">
+    <section style="max-width: 700px; margin-left: auto; margin-right: auto;">
       {% for item in site.data.things %}
       <article>
         {% if item.image %}<img alt="" src="{{ site.baseurl }}/assets/img/{{ item.image }}" style="width: 100%;">{% endif %}
