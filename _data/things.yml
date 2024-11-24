@@ -1,15 +1,15 @@
 - name: Foyer table from NYC
   description: Came from Archive apartment. Now in utility room at 11201.
-  image: foyer-table.jpg
-- name: Travel sports cart
-  description: Gave to the Murphys since they have kids in sports now and we hadn’t used it since living at Val’s Way.
-  image: cart.jpg
+  image: foyer-table.avif
 - name: Expired protein powder
   description: 'Some of it expired in 2023. Read my lips: no new powder!'
 - name: designmakeseverythingpossible.com
   description: Well, it didn’t make InVision as a going concern possible.
 - name: sophiamusicstudio.com
 - name: taliastutoring.com
+- name: Travel sports cart
+  description: Gave to the Murphys since they have kids in sports now and we hadn’t used it since living at Val’s Way.
+  image: cart.avif
 - name: Dead plants and detritus from deck
   description: Misc stuff that Sop got rid of in Spring.
 - name: Expired flax seeds
@@ -21,7 +21,7 @@
 - name: Felt hangars
 - name: Softball gloves and balls
   description: From Talia’s former career as a travel softball player.
-  image: glove.jpg
+  image: glove.avif
 - name: Instrument cases
   description: From basement crawl space.
 - name: Sleeping bags
@@ -43,11 +43,11 @@
 - name: Old contacts
 - name: Old eyeglasses
 - name: Old maid tray
-  image: maid-tray.jpg
+  image: maid-tray.avif
 - name: Paper trays
 - name: Candle holder on deck
 - name: Bike
-  image: bike.jpg
+  image: bike.avif
 - name: Pool raft
 - name: Deck cushions
 - name: More dead plants
