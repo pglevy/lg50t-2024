@@ -1,11 +1,15 @@
 - name: Hersch’s Bike
   image: bike.avif
+  width: 1400
+  height: 1350
 - name: Piano bench
 - name: Mac OS
   description: Decided to keep old Macbook Pro and install Linux for personal machine. Not looking back.
 - name: Foyer table from NYC
   description: Came from Archive apartment. Now in utility room at 11201.
   image: foyer-table.avif
+  width: 1400
+  height: 775
 - name: Expired protein powder
   description: 'Some of it expired in 2023. Read my lips: no new powder!'
 - name: designmakeseverythingpossible.com
@@ -15,6 +19,8 @@
 - name: Travel sports cart
   description: Gave to the Murphys since they have kids in sports now and we hadn’t used it since living at Val’s Way.
   image: cart.avif
+  width: 1400
+  height: 1200
 - name: Dead plants and detritus from deck
   description: Misc stuff that Sop got rid of in Spring.
 - name: Expired flax seeds
@@ -27,6 +33,8 @@
 - name: Softball gloves and balls
   description: From Talia’s former career as a travel softball player.
   image: glove.avif
+  width: 1400
+  height: 568
 - name: Instrument cases
   description: From basement crawl space.
 - name: Sleeping bags
@@ -46,6 +54,8 @@
 - name: Old eyeglasses
 - name: Old maid tray
   image: maid-tray.avif
+  width: 768
+  height: 927
 - name: Paper trays
 - name: Candle holder on deck
 - name: Pool raft
