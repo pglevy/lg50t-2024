@@ -20,6 +20,10 @@
     --pico-background-color: var(--pico-color-slate-950);
 }
 
+body > main {
+    padding-block: calc(var(--pico-block-spacing-vertical) * 2);
+}
+
 article {
     margin-bottom: calc(var(--pico-spacing) * 1.5);
 }
