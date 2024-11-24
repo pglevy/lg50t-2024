@@ -1,3 +1,8 @@
+- name: Hersch’s Bike
+  image: bike.avif
+- name: Piano bench
+- name: Mac OS
+  description: Decided to keep old Macbook Pro and install Linux for personal machine. Not looking back.
 - name: Foyer table from NYC
   description: Came from Archive apartment. Now in utility room at 11201.
   image: foyer-table.avif
@@ -28,9 +33,6 @@
   description: Also from crawl space.
 - name: Tripod
 - name: Tote bags
-- name: Piano bench
-- name: Mac OS
-  description: Decided to keep old Macbook Pro and install Linux for personal machine. Not looking back.
 - name: Unused prescription medication
 - name: Theragun
 - name: Old cameras
@@ -46,8 +48,6 @@
   image: maid-tray.avif
 - name: Paper trays
 - name: Candle holder on deck
-- name: Bike
-  image: bike.avif
 - name: Pool raft
 - name: Deck cushions
 - name: More dead plants
