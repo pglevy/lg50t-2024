@@ -7,10 +7,11 @@
   <meta name="description" content="{{ site.data.metadata.description | default: 'Free, easy, low-tech website template using GitHub Pages' }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="{{ site.baseurl }}/favicon.ico" sizes="any">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <section>
       <hgroup>
         <h1>{{ site.data.metadata.title }}</h1>
-        <p>Physical, digital, and mental baggage we’ve let go of in 2024</p>
+        <p>{{ site.data.metadata.description }}</p>
       </hgroup>
       <h3>Progress: {{ site.data.things | size }} of 50</h3>
       <progress value="{{ site.data.things | size }}" max="50"></progress>
@@ -26,14 +27,16 @@
     <section class="container" style="max-width: 700px;">
       {% for item in site.data.things %}
       <article>
-        {% if item.image %}<img alt="" src="{{ site.baseurl }}/assets/img/{{ item.image }}" style="width:100%;">{% endif %}
-        <h2>{{ item.name }}</h2>
-        <p>{{ item.description }}</p>
+        {% if item.image %}<img alt="" src="{{ site.baseurl }}/assets/img/{{ item.image }}" style="width: 100%;">{% endif %}
+        <hgroup>
+          <h2>{{ item.name }}</h2>
+          {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+        </hgroup>
       </article>
       {% endfor %}
-    </section> 
+    </section>
+    <p style="text-align: center;"><small>Made in about 30 minutes with Jekyll and Pico CSS on GitHub Pages.</small></p>
   </main>
-  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

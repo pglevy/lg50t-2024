@@ -1,7 +1,58 @@
 - name: Foyer table from NYC
   description: Came from Archive apartment. Now in utility room at 11201.
+  image: foyer-table.jpg
 - name: Travel sports cart
-  description: Gave to the Murphys since they have kids in sports now and we hadn't used it since living at Val's Way.
+  description: Gave to the Murphys since they have kids in sports now and we hadn’t used it since living at Val’s Way.
+  image: cart.jpg
 - name: Expired protein powder
   description: 'Some of it expired in 2023. Read my lips: no new powder!'
-  image: powder.avif
+- name: designmakeseverythingpossible.com
+  description: Well, it didn’t make InVision as a going concern possible.
+- name: sophiamusicstudio.com
+- name: taliastutoring.com
+- name: Dead plants and detritus from deck
+  description: Misc stuff that Sop got rid of in Spring.
+- name: Expired flax seeds
+  description: Maybe used only once.
+- name: Teddy 🧸
+  description: Now in pieces in Herschel’s studio.
+- name: Three bags of clothes
+- name: Handful of books 📚
+- name: Felt hangars
+- name: Softball gloves and balls
+  description: From Talia’s former career as a travel softball player.
+  image: glove.jpg
+- name: Instrument cases
+  description: From basement crawl space.
+- name: Sleeping bags
+  description: Also from crawl space.
+- name: Tripod
+- name: Tote bags
+- name: Piano bench
+- name: Mac OS
+  description: Decided to keep old Macbook Pro and install Linux for personal machine. Not looking back.
+- name: Unused prescription medication
+- name: Theragun
+- name: Old cameras
+- name: White plastic drawer unit
+- name: Water-damaged drawer from PC desk
+- name: Black cart from bathroom
+- name: Incense 😤
+- name: Unneeded school supplies
+- name: Pizza recipe
+- name: Old contacts
+- name: Old eyeglasses
+- name: Old maid tray
+  image: maid-tray.jpg
+- name: Paper trays
+- name: Candle holder on deck
+- name: Bike
+  image: bike.jpg
+- name: Pool raft
+- name: Deck cushions
+- name: More dead plants
+- name: Non-working string lights
+- name: Zapier account
+- name: Wordpress
+  description: Wasn’t really using it and don’t want to be associated with it now.
+
