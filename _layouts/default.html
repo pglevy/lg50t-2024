@@ -9,8 +9,7 @@
 
   <link rel="icon" href="{{ site.baseurl }}/favicon.ico" sizes="any">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.colors.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pico.indigo.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
 </head>
 
@@ -21,7 +20,12 @@
         <h1>{{ site.data.metadata.title }}</h1>
         <p>{{ site.data.metadata.description }}</p>
       </hgroup>
+      {% assign count = site.data.things | size %}
+      {% if count >= 50 %}
+      <h2>🎉🎉🎉 We did it! 👏👏👏</h2>
+      {% else %}
       <h3>Progress: {{ site.data.things | size }} of 50</h3>
+      {% endif %}
       <progress value="{{ site.data.things | size }}" max="50"></progress>
     </section>
     <section style="max-width: 700px; margin-left: auto; margin-right: auto;">
@@ -35,7 +39,7 @@
       </article>
       {% endfor %}
     </section>
-    <p style="text-align: center;"><small>Made in about 30 minutes with Jekyll and Pico CSS on GitHub Pages.</small></p>
+    <p style="text-align: center;"><small>Made with Jekyll and Pico CSS on <a href="https://github.com/pglevy/lg50t-2024">GitHub</a> Pages in about 30 minutes.</small></p>
   </main>
 </body>
 
