@@ -1,11 +1,11 @@
-- name: Hersch’s Bike
+- name: Hersch’s bike
   image: bike.avif
   width: 1400
   height: 1350
 - name: Piano bench
 - name: Mac OS
   description: Decided to keep old Macbook Pro and install Linux for personal machine. Not looking back.
-- name: Foyer table from NYC
+- name: Foyer table
   description: Came from Archive apartment. Now in utility room at 11201.
   image: foyer-table.avif
   width: 1400
