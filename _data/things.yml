@@ -66,4 +66,8 @@
 - name: Wordpress
   description: Wasn’t really using it and don’t want to be associated with it now.
 - name: Ex-boyfriend stuff
+- name: Baking aprons
+  image: apron.avif
+  width: 1200
+  height: 900
 
